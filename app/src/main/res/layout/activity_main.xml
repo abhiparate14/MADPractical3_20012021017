@@ -30,13 +30,24 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
             <TextView
+                android:id="@+id/one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hello World!"
+                android:text="Login UI MAD Practical"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toEndOf=""
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GUNI"
+                app:layout_constraintTop_toBottomOf="@id/one"
+                app:layout_constraintBaseline_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/one" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

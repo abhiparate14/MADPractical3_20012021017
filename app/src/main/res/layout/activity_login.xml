@@ -179,6 +179,7 @@
         android:padding="10dp"
         android:text="Login"
         android:textSize="17dp"
+        android:onClick="launchresultlogin"
         app:layout_anchor="@+id/nestedScrollView3"
         app:layout_anchorGravity="center" />
 
@@ -194,7 +195,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SIGN UP"
@@ -206,6 +207,8 @@
         android:layout_marginLeft="250dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="launchreistration"/>
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

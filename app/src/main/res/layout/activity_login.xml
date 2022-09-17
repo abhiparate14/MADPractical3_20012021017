@@ -51,7 +51,7 @@
                 tools:ignore="NotSibling" />
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/matertalcardview"
+                android:id="@+id/matertalcardviewlogin"
                 android:layout_width="380dp"
                 android:layout_height="265dp"
                 android:elevation="5dp"

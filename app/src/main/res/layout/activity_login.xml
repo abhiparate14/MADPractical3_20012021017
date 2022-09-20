@@ -203,6 +203,7 @@
         android:id="@+id/acc2"
         android:textStyle="bold"
         android:textColor="#DB3D91"
+        android:background=""
         android:layout_marginTop="500dp"
         android:layout_marginLeft="250dp"
         app:layout_constraintStart_toStartOf="parent"
